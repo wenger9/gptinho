@@ -1,0 +1,242 @@
+[
+    {
+        "query": "What was the market share of Clinique in North America in Q3 2022?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "How did Clinique rank in terms of market share in the North American market during the first half of 2023?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "What percentage of the market did Clinique hold in North America over the past 6 months?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "Show me the retail sales performance for Estée Lauder in Europe for the fiscal year 2022",
+        "table": "retailCard"
+    },
+    {
+        "query": "How have Estée Lauder's products performed in terms of retail sales in the European market since January 2023?",
+        "table": "retailCard"
+    },
+    {
+        "query": "What were the retail sales figures for Estée Lauder in Europe between Q2 and Q4 of 2022?",
+        "table": "retailCard"
+    },
+    {
+        "query": "What was the foot traffic in Sephora stores in the US during the holiday season last year?",
+        "table": "footTrafficTable"
+    },
+    {
+        "query": "How many people visited Sephora stores in the United States in the month of December 2022?",
+        "table": "footTrafficTable"
+    },
+    {
+        "query": "Analyze the in-store foot traffic for Sephora in the US market for the past quarter",
+        "table": "footTrafficTable"
+    },
+    {
+        "query": "Who were the top retailers for Lancôme in France in the year 2022?",
+        "table": "topRetailers"
+    },
+    {
+        "query": "Which retailers sold the most Lancôme products in France during the first quarter of 2023?",
+        "table": "topRetailers"
+    },
+    {
+        "query": "Identify the leading retailers for Lancôme in the French market over the last 3 months",
+        "table": "topRetailers"
+    },
+    {
+        "query": "What were the main traffic sources for Bobbi Brown's website in fiscal year 2023?",
+        "table": "trafficSourceTable"
+    },
+    {
+        "query": "Where did the majority of Jo Malone website traffic come from in the past 30 days?",
+        "table": "trafficSourceTable"
+    },
+    {
+        "query": "Analyze the key sources driving traffic to Clinique's online platform during the second half of 2022",
+        "table": "trafficSourceTable"
+    },
+    {
+        "query": "Compare the online traffic share of MAC and NARS for the month of April 2023",
+        "table": "trafficShareTable"
+    },
+    {
+        "query": "How did the website traffic of MAC compare to NARS in Q1 2023?",
+        "table": "trafficShareTable"
+    },
+    {
+        "query": "What was the difference in online traffic share between MAC and NARS during the last 6 months?",
+        "table": "trafficShareTable"
+    },
+    {
+        "query": "Analyze the consumer loyalty for La Mer in Asia for the year 2022",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What was the customer retention rate for La Mer in the Asian market in the first quarter of 2023?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "How loyal were consumers to the La Mer brand in Asia over the past year?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What was the overall consumer sentiment for Shiseido in Japan during Q4 2022?",
+        "table": "consumerAggregate"
+    },
+    {
+        "query": "How did customers feel about the Shiseido brand in Japan in the month of March 2023?",
+        "table": "consumerAggregate"
+    },
+    {
+        "query": "Gauge the general consumer perception of Shiseido in the Japanese market for the first half of 2022",
+        "table": "consumerAggregate"
+    },
+    {
+        "query": "Show me the marketing and advertising spend for Dior in the UK during the fiscal year 2023",
+        "table": "smapTable"
+    },
+    {
+        "query": "How much did Dior invest in marketing and advertising in the United Kingdom in Q3 2022?",
+        "table": "smapTable"
+    },
+    {
+        "query": "What was the breakdown of Dior's marketing and advertising expenditure in the UK market for the past 6 months?",
+        "table": "smapTable"
+    },
+    {
+        "query": "What was the sales revenue for Chanel in China in the year 2022?",
+        "table": "financeCard"
+    },
+    {
+        "query": "How much revenue did Chanel generate from sales in the Chinese market during Q1 2023?",
+        "table": "financeCard"
+    },
+    {
+        "query": "Calculate the total sales income for Chanel in China for the last quarter",
+        "table": "financeCard"
+    },
+    {
+        "query": "Analyze the inventory levels for Tom Ford Beauty in the US as of April 2023",
+        "table": "inventory"
+    },
+    {
+        "query": "What was the current stock situation for Tom Ford Beauty products in the United States at the end of Q4 2022?",
+        "table": "inventory"
+    },
+    {
+        "query": "How much inventory did Tom Ford Beauty have in the US market during the holiday season last year?",
+        "table": "inventory"
+    },
+    {
+        "query": "What were the top-selling product categories for Jo Malone in the fiscal year 2022?",
+        "table": "productRole"
+    },
+    {
+        "query": "Which product types contributed the most to Jo Malone's sales in Q1 2023?",
+        "table": "productRole"
+    },
+    {
+        "query": "Identify the best-performing product segments for Jo Malone over the past 6 months",
+        "table": "productRole"
+    },
+    {
+        "query": "Compare the advertising effectiveness of Guerlain and Givenchy for the month of March 2023",
+        "table": "mediaTable"
+    },
+    {
+        "query": "Which brand had a more impactful advertising campaign, Guerlain or Givenchy, during Q4 2022?",
+        "table": "mediaTable"
+    },
+    {
+        "query": "Analyze the relative performance of Guerlain and Givenchy's advertising efforts in the first half of 2023",
+        "table": "mediaTable"
+    },
+    {
+        "query": "What was the social media engagement for Benefit Cosmetics in the past 30 days?",
+        "table": "ownedSocial"
+    },
+    {
+        "query": "How actively did consumers interact with Benefit Cosmetics on social media platforms during Q2 2022?",
+        "table": "ownedSocial"
+    },
+    {
+        "query": "Measure the level of consumer engagement with Benefit Cosmetics' social media presence over the last quarter",
+        "table": "ownedSocial"
+    },
+    {
+        "query": "Analyze the consumer demographics for Fenty Beauty in the year 2022",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What was the age, gender, and income distribution of Fenty Beauty's customer base in Q1 2023?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "Provide a breakdown of Fenty Beauty's consumer demographics for the past 6 months",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What were the most influential brands in the skincare category during the fiscal year 2023?",
+        "table": "influencerTable"
+    },
+    {
+        "query": "Which skincare brands had the greatest influence on consumers in Q4 2022?",
+        "table": "influencerTable"
+    },
+    {
+        "query": "Identify the skincare brands with the highest impact and influence in the market over the last quarter",
+        "table": "influencerTable"
+    },
+    {
+        "query": "Show me the market growth for premium fragrances in Europe for the year 2022",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "How fast did the premium fragrance market expand in Europe during the first half of 2023?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "What was the year-over-year growth rate for high-end fragrances in the European market in Q3 2022?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "What was the customer retention rate for Kiehl's in the fiscal year 2022?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "How well did Kiehl's retain its customers over the past year?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "Analyze the percentage of Kiehl's customers who made repeat purchases in Q1 2023",
+        "table": "consumerTable"
+    },
+    {
+        "query": "Analyze the product launch performance for YSL Beauty in the year 2022",
+        "table": "innovation"
+    },
+    {
+        "query": "How successful were YSL Beauty's new product introductions during the first quarter of 2023?",
+        "table": "innovation"
+    },
+    {
+        "query": "Evaluate the market reception and sales of YSL Beauty's recently launched products over the past 6 months",
+        "table": "innovation"
+    },
+    {
+        "query": "Compare the in-store sales and online sales for Armani Beauty in the fiscal year 2023",
+        "table": "retailCard"
+    },
+    {
+        "query": "What was the ratio of Armani Beauty's retail store sales to e-commerce sales in Q4 2022?",
+        "table": "retailCard"
+    },
+    {
+        "query": "Analyze the relative contribution of physical stores and online channels to Armani Beauty's revenue during the last quarter",
+        "table": "retailCard"
+    }
+]

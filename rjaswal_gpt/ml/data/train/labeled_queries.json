@@ -1,0 +1,242 @@
+[
+    {
+        "query": "What is the market share of Clinique in North America?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "How does Clinique rank in terms of market share in the North American market?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "What percentage of the market does Clinique hold in North America?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "Show me the retail sales performance for Estée Lauder in Europe",
+        "table": "retailCard"
+    },
+    {
+        "query": "How are Estée Lauder's products performing in terms of retail sales in the European market?",
+        "table": "retailCard"
+    },
+    {
+        "query": "What are the retail sales figures for Estée Lauder in Europe?",
+        "table": "retailCard"
+    },
+    {
+        "query": "What is the foot traffic in Sephora stores in the US?",
+        "table": "footTrafficTable"
+    },
+    {
+        "query": "How many people visit Sephora stores in the United States?",
+        "table": "footTrafficTable"
+    },
+    {
+        "query": "Analyze the in-store foot traffic for Sephora in the US market",
+        "table": "footTrafficTable"
+    },
+    {
+        "query": "Who are the top retailers for Lancôme in France?",
+        "table": "topRetailers"
+    },
+    {
+        "query": "Which retailers sell the most Lancôme products in France?",
+        "table": "topRetailers"
+    },
+    {
+        "query": "Identify the leading retailers for Lancôme in the French market",
+        "table": "topRetailers"
+    },
+    {
+        "query": "What are the main traffic sources for Bobbi Brown's website in fiscal 23?",
+        "table": "trafficSourceTable"
+    },
+    {
+        "query": "Where does the majority of jo malone website traffic come from?",
+        "table": "trafficSourceTable"
+    },
+    {
+        "query": "Analyze the key sources driving traffic to clinique's online platform",
+        "table": "trafficSourceTable"
+    },
+    {
+        "query": "Compare the online traffic share of MAC and NARS",
+        "table": "trafficShareTable"
+    },
+    {
+        "query": "How does the website traffic of MAC compare to NARS?",
+        "table": "trafficShareTable"
+    },
+    {
+        "query": "What is the difference in online traffic share between MAC and NARS?",
+        "table": "trafficShareTable"
+    },
+    {
+        "query": "Analyze the consumer loyalty for La Mer in Asia",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What is the customer retention rate for La Mer in the Asian market?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "How loyal are consumers to the La Mer brand in Asia?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What is the overall consumer sentiment for Shiseido in Japan?",
+        "table": "consumerAggregate"
+    },
+    {
+        "query": "How do customers feel about the Shiseido brand in Japan?",
+        "table": "consumerAggregate"
+    },
+    {
+        "query": "Gauge the general consumer perception of Shiseido in the Japanese market",
+        "table": "consumerAggregate"
+    },
+    {
+        "query": "Show me the marketing and advertising spend for Dior in the UK",
+        "table": "smapTable"
+    },
+    {
+        "query": "How much does Dior invest in marketing and advertising in the United Kingdom?",
+        "table": "smapTable"
+    },
+    {
+        "query": "What is the breakdown of Dior's marketing and advertising expenditure in the UK market?",
+        "table": "smapTable"
+    },
+    {
+        "query": "What is the sales revenue for Chanel in China?",
+        "table": "financeCard"
+    },
+    {
+        "query": "How much revenue does Chanel generate from sales in the Chinese market?",
+        "table": "financeCard"
+    },
+    {
+        "query": "Calculate the total sales income for Chanel in China",
+        "table": "financeCard"
+    },
+    {
+        "query": "Analyze the inventory levels for Tom Ford Beauty in the US",
+        "table": "inventory"
+    },
+    {
+        "query": "What is the current stock situation for Tom Ford Beauty products in the United States?",
+        "table": "inventory"
+    },
+    {
+        "query": "How much inventory does Tom Ford Beauty have in the US market?",
+        "table": "inventory"
+    },
+    {
+        "query": "What are the top-selling product categories for Jo Malone?",
+        "table": "productRole"
+    },
+    {
+        "query": "Which product types contribute the most to Jo Malone's sales?",
+        "table": "productRole"
+    },
+    {
+        "query": "Identify the best-performing product segments for Jo Malone",
+        "table": "productRole"
+    },
+    {
+        "query": "Compare the advertising effectiveness of Guerlain and Givenchy",
+        "table": "mediaTable"
+    },
+    {
+        "query": "Which brand has a more impactful advertising campaign, Guerlain or Givenchy?",
+        "table": "mediaTable"
+    },
+    {
+        "query": "Analyze the relative performance of Guerlain and Givenchy's advertising efforts",
+        "table": "mediaTable"
+    },
+    {
+        "query": "What is the social media engagement for Benefit Cosmetics?",
+        "table": "ownedSocial"
+    },
+    {
+        "query": "How actively do consumers interact with Benefit Cosmetics on social media platforms?",
+        "table": "ownedSocial"
+    },
+    {
+        "query": "Measure the level of consumer engagement with Benefit Cosmetics' social media presence",
+        "table": "ownedSocial"
+    },
+    {
+        "query": "Analyze the consumer demographics for Fenty Beauty",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What is the age, gender, and income distribution of Fenty Beauty's customer base?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "Provide a breakdown of Fenty Beauty's consumer demographics",
+        "table": "consumerTable"
+    },
+    {
+        "query": "What are the most influential brands in the skincare category?",
+        "table": "influencerTable"
+    },
+    {
+        "query": "Which skincare brands have the greatest influence on consumers?",
+        "table": "influencerTable"
+    },
+    {
+        "query": "Identify the skincare brands with the highest impact and influence in the market",
+        "table": "influencerTable"
+    },
+    {
+        "query": "Show me the market growth for premium fragrances in Europe",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "How fast is the premium fragrance market expanding in Europe?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "What is the year-over-year growth rate for high-end fragrances in the European market?",
+        "table": "marketRankTable"
+    },
+    {
+        "query": "What is the customer retention rate for Kiehl's?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "How well does Kiehl's retain its customers over time?",
+        "table": "consumerTable"
+    },
+    {
+        "query": "Analyze the percentage of Kiehl's customers who make repeat purchases",
+        "table": "consumerTable"
+    },
+    {
+        "query": "Analyze the product launch performance for YSL Beauty",
+        "table": "innovation"
+    },
+    {
+        "query": "How successful are YSL Beauty's new product introductions?",
+        "table": "innovation"
+    },
+    {
+        "query": "Evaluate the market reception and sales of YSL Beauty's recently launched products",
+        "table": "innovation"
+    },
+    {
+        "query": "Compare the in-store sales and online sales for Armani Beauty",
+        "table": "retailCard"
+    },
+    {
+        "query": "What is the ratio of Armani Beauty's retail store sales to e-commerce sales?",
+        "table": "retailCard"
+    },
+    {
+        "query": "Analyze the relative contribution of physical stores and online channels to Armani Beauty's revenue",
+        "table": "retailCard"
+    }
+]

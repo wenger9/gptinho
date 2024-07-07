@@ -1,0 +1,26 @@
+{% extends "data_assets/base.html" %}
+	
+{% block body %}
+
+<h2>Login</h2>
+
+{% if message %}
+  <div>{{ message }}</div>
+{% endif %}
+
+<form action="{% url 'login' %}" method="post" class="w-25">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <input type="text" class="form-control" id="username" name="username" aria-describedby="user-help">
+    <div id="user-help" class="form-text">Your normal ELC username.</div>
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password" name="password" aria-describedby="password-help">
+    <div id="password-help" class="form-text">Use password assigned by GDA team.</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+{% endblock %}

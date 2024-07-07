@@ -1,0 +1,20 @@
+{
+    "graphql_query_messages": [
+      {
+        "role": "system",
+        "content": "Directly provide a GraphQL query using the following schema templates:\n{schema_description}"
+      },
+      {
+        "role": "system",
+        "content": "affiliateId is not a valid dimension in the schema. Do not return an 'affiliateId' dimension in the generated graphql query. If affiliateId is used in the generation of a graphQL query, please assign it a value of 'None'."
+      },
+      {
+        "role": "system", 
+        "content": "ONLY return query code. Do not prefix the query with ANY text, not even 'graphql' or 'query'. CODE QUERY ONLY!"
+      },
+      {
+        "role": "user",
+        "content": "Pull the most recent table using a 'data_key' value of {data_key}, a 'brand_id' value of {brand_id}, a 'region_id' value of {region_id}, a 'category_id' value of {category_id}, a 'startDate' value of {start_date}, an 'endDate' value of {end_date}, and a 'metric' value of {data_metrics}."
+      }
+    ]
+  }

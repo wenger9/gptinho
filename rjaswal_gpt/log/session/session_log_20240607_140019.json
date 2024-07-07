@@ -1,0 +1,70 @@
+{
+  "timestamp": "2024-06-07 13:59:57",
+  "queries": [
+    {
+      "user_query": "How many consumer reactivations did estee have in 2023 in North America in skincare?",
+      "expected_result": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "North America",
+        "regionId": 1,
+        "category": "Skincare",
+        "categoryId": "2",
+        "year": 2023,
+        "metric": "reactivatedAmount"
+      },
+      "actual_result": {},
+      "brand_id": 72,
+      "region_id": 1,
+      "category_id": "2",
+      "affiliate_id": 7,
+      "start_date": "2022-07-01",
+      "end_date": "2023-06-30",
+      "data_key": "reactivatedAmount",
+      "generated_graphql_query": "{\n  consumerTable (brandId: 72, regionId: 1, startDate: \"2022-07-01\", endDate: \"2023-06-30\") {\n    reactivatedAmount\n    dates {\n      startDate\n      endDate\n      period\n    }\n  }\n}",
+      "summary": "No data available for the given query."
+    },
+    {
+      "user_query": "What was the year-over-year change in foot traffic for Estee Lauder in north america in 2022?",
+      "expected_result": {
+        "brand": "Estee Lauder",
+        "brandId": 72,
+        "region": "EMEA",
+        "regionId": 8,
+        "year": 2022,
+        "metric": "footTrafficYoy"
+      },
+      "actual_result": {},
+      "brand_id": 72,
+      "region_id": 1,
+      "category_id": "5",
+      "affiliate_id": 7,
+      "start_date": "2021-07-01",
+      "end_date": "2022-06-30",
+      "data_key": "footTrafficYoy",
+      "generated_graphql_query": "{\n  footTrafficTable (brandId: 72, regionId: 1, startDate: \"2021-07-01\", endDate: \"2022-06-30\") {\n    footTrafficYoy,\n    dates {\n      startDate\n      endDate\n      period\n    }\n  }\n}",
+      "summary": "No data available for the given query."
+    },
+    {
+      "user_query": "What was the net amount for estee in China in 2021?",
+      "expected_result": {
+        "brand": "La Mer",
+        "brandId": 110,
+        "region": "China",
+        "regionId": 12,
+        "year": 2021,
+        "metric": "netAmount"
+      },
+      "actual_result": {},
+      "brand_id": 72,
+      "region_id": 12,
+      "category_id": "5",
+      "affiliate_id": 62,
+      "start_date": "2020-07-01",
+      "end_date": "2021-06-30",
+      "data_key": "netAmount",
+      "generated_graphql_query": "{\n  financeCard (brandId: 72, regionId: 12, affiliateId: null, startDate: \"2020-07-01\", endDate: \"2021-06-30\", categoryId: 5) {\n    netAmount\n    dates {\n      period\n      startDate\n      endDate\n    }\n  }\n}",
+      "summary": "No data available for the given query."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+[
+    {
+        "query": "What was the number of new Clinique consumers in North America for skincare in Q3 of fiscal year 2022?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Skincare",
+            "categoryId": 2,
+            "affiliateId": null,
+            "year": 2022,
+            "quarter": "Q3",
+            "metric": "newAmount"
+        }
+    },
+    {
+        "query": "How many Clinique consumers were retained in North America for makeup from January to June 2023?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Makeup",
+            "categoryId": 1,
+            "affiliateId": null,
+            "startDate": "2023-01-01",
+            "endDate": "2023-06-30",
+            "metric": "retainedAmount"
+        }
+    },
+    {
+        "query": "What is the projected number of reactivated Clinique consumers in North America for skincare in the second half of calendar year 2024?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Skincare",
+            "categoryId": 2,
+            "affiliateId": null,
+            "startDate": "2024-07-01",
+            "endDate": "2024-12-31",
+            "metric": "reactivatedPlan"
+        }
+    },
+    {
+        "query": "What was the year-over-year change in repeat Clinique consumers in North America for makeup in fiscal year 2023?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Makeup",
+            "categoryId": 1,
+            "affiliateId": null,
+            "year": 2023,
+            "metric": "repeatYoy"
+        }
+    },
+    {
+        "query": "What was the gross-to-net amount for Clinique in North America for skincare in August 2022?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Skincare",
+            "categoryId": 2,
+            "affiliateId": null,
+            "startDate": "2022-08-01",
+            "endDate": "2022-08-31",
+            "metric": "grossToNetAmount"
+        }
+    },
+    {
+        "query": "What was the margin amount for Clinique in North America for makeup in the first half of fiscal year 2024?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Makeup",
+            "categoryId": 1,
+            "affiliateId": null,
+            "startDate": "2023-07-01",
+            "endDate": "2023-12-31",
+            "metric": "marginAmount"
+        }
+    },
+    {
+        "query": "What was the year-over-year change in foot traffic for Clinique in North America for skincare in calendar year 2022?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Skincare",
+            "categoryId": 2,
+            "affiliateId": null,
+            "year": 2022,
+            "metric": "footTrafficYoy"
+        }
+    },
+    {
+        "query": "What was the foot traffic for Clinique in North America for makeup from October to December 2023?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Makeup",
+            "categoryId": 1,
+            "affiliateId": null,
+            "startDate": "2023-10-01",
+            "endDate": "2023-12-31",
+            "metric": "footTraffic"
+        }
+    },
+    {
+        "query": "What was the retail amount for Clinique in North America for skincare in Q2 of fiscal year 2023?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Skincare",
+            "categoryId": 2,
+            "affiliateId": null,
+            "year": 2023,
+            "quarter": "Q2",
+            "metric": "retailAmount"
+        }
+    },
+    {
+        "query": "What was the year-over-year change in retail amount for Clinique in North America for makeup in fiscal year 2024?",
+        "expectedResult": {
+            "brand": "Clinique",
+            "brandId": 109,
+            "region": "North America",
+            "regionId": 1,
+            "category": "Makeup",
+            "categoryId": 1,
+            "affiliateId": null,
+            "year": 2024,
+            "metric": "retailYoy"
+        }
+    },
+    {
+        "query": "What was the advertising amount for Clinique in North America for skincare in calendar year 2022?",
+        "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Skincare",
+                "categoryId": 2,
+                "affiliateId": null,
+                "year": 2022,
+                "metric": "advertising"
+            }
+        },
+        {
+            "query": "What was the year-over-year change in marketing amount for Clinique in North America for makeup in fiscal year 2023?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Makeup",
+                "categoryId": 1,
+                "affiliateId": null,
+                "year": 2023,
+                "metric": "marketingYoy"
+            }
+        },
+        {
+            "query": "What was the bounce rate for Clinique in North America for skincare in Q3 of calendar year 2024?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Skincare",
+                "categoryId": 2,
+                "affiliateId": null,
+                "year": 2024,
+                "quarter": "Q3",
+                "metric": "bounceRate"
+            }
+        },
+        {
+            "query": "What was the year-over-year change in conversion rate for Clinique in North America for makeup from January to March 2023?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Makeup",
+                "categoryId": 1,
+                "affiliateId": null,
+                "startDate": "2023-01-01",
+                "endDate": "2023-03-31",
+                "metric": "conversionRateYoy"
+            }
+        },
+        {
+            "query": "What was the number of pages per session for Clinique in North America for skincare in fiscal year 2022?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Skincare",
+                "categoryId": 2,
+                "affiliateId": null,
+                "year": 2022,
+                "metric": "pagesPerSession"
+            }
+        },
+        {
+            "query": "What was the year-over-year change in session duration for Clinique in North America for makeup in the second half of calendar year 2023?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Makeup",
+                "categoryId": 1,
+                "affiliateId": null,
+                "startDate": "2023-07-01",
+                "endDate": "2023-12-31",
+                "metric": "sessionDurationYoy"
+            }
+        },
+        {
+            "query": "What was the number of sessions for Clinique in North America for skincare in Q1 of fiscal year 2024?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Skincare",
+                "categoryId": 2,
+                "affiliateId": null,
+                "year": 2024,
+                "quarter": "Q1",
+                "metric": "sessions"
+            }
+        },
+        {
+            "query": "What was the year-over-year change in quality for Clinique in North America for makeup in calendar year 2022?",
+            "expectedResult": {
+                "brand": "Clinique",
+                "brandId": 109,
+                "region": "North America",
+                "regionId": 1,
+                "category": "Makeup",
+                "categoryId": 1,
+                "affiliateId": null,
+                "year": 2022,
+                "metric": "qualityYoy"
+            }
+        }
+    ]

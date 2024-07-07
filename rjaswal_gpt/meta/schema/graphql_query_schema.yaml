@@ -1,0 +1,348 @@
+# type Query {
+#   mediaChart(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     categoryId: Int
+#   ): [LineChart]
+
+#   mediaTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     categoryId: Int
+#   ): MediaTable
+
+#   ownedSocial(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#   ): OwnedSocialTable
+
+#   ownedMedia(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#   ): OwnedMediaTable
+
+#   influencerChart(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     categoryId: Int
+#   ): [LineChart]
+
+#   influencerTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     categoryId: Int
+#   ): InfluencerTable
+
+#   consumerAggregate(
+#     startDate: Date
+#     endDate: Date
+#     projection: String
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#   ): ConsumerAggregate
+
+#   consumerTable(
+#     startDate: Date
+#     endDate: Date
+#     projection: String
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#   ): ConsumerTable
+
+#   brandHealth(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     categoryId: Int
+#   ): BrandHealthReturn
+
+#   innovation(
+#     startDate: Date
+#     endDate: Date
+#     limit: Int
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#   ): InnovationGroupType
+
+#   inventory(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     categoryId: Int
+#   ): InventoryType
+
+#   monthsOfCover(
+#     startDate: Date
+#     endDate: Date
+#     limit: Int
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#   ): MonthsOfCoverType
+
+#   retailChart(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#     overlay: String
+#   ): RetailChart
+
+#   retailCard(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#     overlay: String
+#   ): RetailCard
+
+#   topRetailers(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#     retailers: Int
+#     overlay: String
+#   ): RetailerTable
+
+#   financeCard(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#     overlay: String
+#   ): FinanceCard
+
+#   smapTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     categoryId: Int
+#   ): SmapTable
+
+#   productRole(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     categoryId: Int
+#   ): ProductRoleChart
+
+#   marketChart(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     categoryId: Int
+#     priceTier: String
+#     overlay: String
+#   ): MarketChart
+
+#   marketTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     categoryId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     priceTier: String
+#     overlay: String
+#   ): MarketTable
+
+#   marketRankTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     categoryId: Int
+#     priceTier: String
+#     overlay: String
+#   ): CompetitorTable
+
+#   marketProductTable(
+#     startDate: Date
+#     endDate: Date
+#     nProducts: Int
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     categoryId: Int
+#     priceTier: String
+#   ): MarketProductTable
+
+#   marketProductChart(
+#     startDate: Date
+#     endDate: Date
+#     nProducts: Int
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     categoryId: Int
+#     priceTier: String
+#   ): MarketChart
+
+#   brands(
+#     search: String
+#     active: Boolean
+#   ): [BrandDimension]
+
+#   regions(
+#     search: String
+#     active: Boolean
+#     superRegion: Boolean
+#   ): [RegionDimension]
+
+#   affiliates(
+#     search: String
+#     active: Boolean
+#     regionId: Int
+#   ): [AffiliateDimension]
+
+#   channelGroups(search: String): [ChannelType]
+
+#   channels(search: String): [BusinessTypeType]
+
+#   businessTypes(
+#     search: String
+#     active: Boolean
+#   ): [BusinessTypeType]
+
+#   categories(search: String): [CategoryType]
+
+#   widgets: [WidgetType]
+
+#   externalLinks: [ExternalLinkType]
+
+#   dateFilters(
+#     name: String
+#     routes: [String]
+#   ): WidgetDates
+
+#   widgetDataSources: TooltipType
+
+#   trafficTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#   ): TrafficType
+
+#   footTrafficTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#   ): FootTrafficType
+
+#   trafficChart(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#     metric: String
+#   ): [LineChart]
+
+#   trafficShareChart(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     priceTier: String
+#   ): [LineChart]
+
+#   trafficShareTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     channelId: Int
+#     priceTier: String
+#   ): TrafficTable
+
+#   trafficSourceTable(
+#     startDate: Date
+#     endDate: Date
+#     brandId: Int
+#     regionId: Int
+#     affiliateId: Int
+#     businessTypeId: Int
+#     channelId: Int
+#   ): TrafficSourceTable
+# }

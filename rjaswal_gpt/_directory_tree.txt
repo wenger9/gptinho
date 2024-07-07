@@ -1,0 +1,37 @@
+~/
+│
+├── _gpt_graphql.py
+│
+├── requirements.txt
+│
+├── commit_message.txt
+│
+├── SarahReadMe.md
+|
+├── signout.txt
+|
+├── README.md
+│
+├── log/
+│   └── session/
+│
+├── meta/
+│   ├── maps/
+│   │   ├── data_tables/
+│   │   │   └── mtm_data_table_themes.json
+│   │   └── dimensions/
+│   │       ├── mtm_affiliatename_to_affiliateid.json
+│   │       ├── mtm_brandname_to_brandid.json
+│   │       ├── mtm_categoryname_to_categoryid.json
+│   │       └── mtm_regionname_to_regionid.json
+│   └── schema/
+│       └── mtm_graphql_dims+metrics_all.json
+│
+├── test/
+│   ├── synthetic_queries_38.json
+│   ├── synthetic_queries_003.json
+│
+└── utils/
+    ├── __init__.py
+    ├── logging_new.py
+    └── query_extractor.py

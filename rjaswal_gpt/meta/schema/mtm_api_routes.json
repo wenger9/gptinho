@@ -1,0 +1,1477 @@
+{
+    "data": {
+      "apiRoutes": [
+        {
+          "name": "qaTable",
+          "parameters": []
+        },
+        {
+          "name": "mediaChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "mediaTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "ownedSocial",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "ownedMedia",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "influencerChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "influencerTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "consumerAggregate",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "projection",
+              "type": "String",
+              "values": [
+                "captured",
+                "projected"
+              ]
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "consumerTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "projection",
+              "type": "String",
+              "values": [
+                "captured",
+                "projected"
+              ]
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "brandHealth",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "innovation",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "limit",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "inventory",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "monthsOfCover",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "limit",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "retailChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "retailCard",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "topRetailers",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "retailers",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "financeCard",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "smapTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "productRole",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "marketChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "marketTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "marketRankTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            },
+            {
+              "name": "overlay",
+              "type": "String",
+              "values": [
+                "adjusted",
+                "unadjusted"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "marketProductTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "nProducts",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "marketProductChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "nProducts",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "categoryId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "brands",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            },
+            {
+              "name": "active",
+              "type": "Boolean",
+              "values": [
+                "true",
+                "false"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "regions",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            },
+            {
+              "name": "active",
+              "type": "Boolean",
+              "values": [
+                "true",
+                "false"
+              ]
+            },
+            {
+              "name": "superRegion",
+              "type": "Boolean",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "affiliates",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            },
+            {
+              "name": "active",
+              "type": "Boolean",
+              "values": [
+                "true",
+                "false"
+              ]
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "channelGroups",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "channels",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "businessTypes",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            },
+            {
+              "name": "active",
+              "type": "Boolean",
+              "values": [
+                "true",
+                "false"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "categories",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "widgets",
+          "parameters": []
+        },
+        {
+          "name": "externalLinks",
+          "parameters": []
+        },
+        {
+          "name": "widgetDataSources",
+          "parameters": []
+        },
+        {
+          "name": "trafficTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "footTrafficTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "trafficChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "metric",
+              "type": "String",
+              "values": [
+                "sessions",
+                "bounces",
+                "pages",
+                "session_duration",
+                "conversions",
+                "foot_traffic"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "trafficShareChart",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "trafficShareTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "priceTier",
+              "type": "String",
+              "values": [
+                "ENTRY PRESTIGE",
+                "PRESTIGE",
+                "LUXURY",
+                "UBER LUXURY"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "trafficSourceTable",
+          "parameters": [
+            {
+              "name": "startDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "endDate",
+              "type": "Date",
+              "values": null
+            },
+            {
+              "name": "brandId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "regionId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "affiliateId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "businessTypeId",
+              "type": "Int",
+              "values": null
+            },
+            {
+              "name": "channelId",
+              "type": "Int",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "intellisearch",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "genericSearch",
+          "parameters": [
+            {
+              "name": "search",
+              "type": "String",
+              "values": null
+            }
+          ]
+        },
+        {
+          "name": "apiRoutes",
+          "parameters": []
+        }
+      ]
+    }
+  }

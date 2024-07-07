@@ -1,0 +1,37 @@
+[
+    {
+        "query": "How many consumer reactivations did estee have in 2023 in North America in skincare?",
+        "expectedResult": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "North America",
+        "regionId": 1,
+        "category": "Skincare",
+        "categoryId": "2",
+        "year": 2023,
+        "metric": "reactivatedAmount"
+        }
+    },
+    {
+        "query": "What was the year-over-year change in foot traffic for Estee Lauder in north america in 2022?",
+        "expectedResult": {
+        "brand": "Estee Lauder",
+        "brandId": 72,
+        "region": "EMEA",
+        "regionId": 8,
+        "year": 2022,
+        "metric": "footTrafficYoy"
+        }
+    },
+    {
+        "query": "What was the net amount for estee in China in 2021?",
+        "expectedResult": {
+        "brand": "La Mer",
+        "brandId": 110, 
+        "region": "China",
+        "regionId": 12,
+        "year": 2021,
+        "metric": "netAmount"
+        }
+    }
+]

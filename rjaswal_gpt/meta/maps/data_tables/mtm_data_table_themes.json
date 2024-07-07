@@ -1,0 +1,19 @@
+{
+    "consumerAggregate": ["new", "projection", "reactivated", "retained"],
+    "consumerTable": ["newAmount", "newPlan", "newYoy", "projection", "reactivatedAmount", "reactivatedPlan", "reactivatedYoy", "repeat", "repeatYoy", "retainedAmount", "retainedPlan", "retainedYoy", "retention", "retentionYoy", "totalAmount", "totalPlan", "totalYoy"],
+    "financeCard": ["estimate", "grossToNetAmount", "grossToNetBudget", "grossToNetLe", "grossToNetYoy", "marginAmount", "marginBudget", "marginLe", "marginYoy", "netAmount", "netBudget", "netLe", "netYoy", "nopAmount", "nopBudget", "nopLe", "nopYoy"],
+    "footTrafficTable": ["footTrafficYoy", "footTraffic", "foot", "traffic"],
+    "influencerTable": ["brands"],
+    "innovation": ["launches"],
+    "inventory": ["cogsNet", "cogsNetMom", "cogsNetTarget", "cogsNetVariance", "excess", "excessMom", "excessVariance", "excessTarget", "fillRate", "fillRateMom", "fillRateTarget", "fillRateVariance", "inventory", "inventoryMom", "inventoryTarget", "inventoryVariance", "lag", "lagMom", "lagTarget", "lagVariance"],
+    "marketRankTable": ["asp", "aspyoy", "name", "rank", "rankyoy", "sales", "salesyoy", "share", "shareyoy", "growth", "market"],
+    "ownedMedia": ["sources"],
+    "ownedSocial": ["channels"],
+    "productRole": ["roles"],
+    "regions": ["abbreviation", "active", "displayName", "id", "name", "superRegion"],
+    "retailCard": ["retailAmount", "retailYoy"],
+    "smapTable": ["advertising", "advertisingNetPct", "advertisingPy", "advertisingYoy", "estimate", "marketing", "marketingNetPct", "marketingPy", "marketingYoy", "promotion", "promotionNetPct", "promotionPy", "promotionYoy", "selling", "sellingNetPct", "sellingPy", "sellingYoy", "total", "totalNetPct", "totalPy", "totalYoy"],
+    "topRetailers": ["retailers"],
+    "trafficTable": ["aggregationLevel", "bounceRate", "bounceRateYoy", "conversionRate", "conversionRateYoy", "pagesPerSession", "pagesPerSessionYoy", "quality", "qualityYoy", "sessionDuration", "sessionDurationYoy", "sessions", "sessionsYoy"],
+    "mediaTable": ["brands"]
+  }

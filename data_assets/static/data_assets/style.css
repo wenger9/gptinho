@@ -1,0 +1,68 @@
+body {
+  font-family: Optima, sans-serif;
+}
+
+.optima-font {
+  font-family: 'Optima', sans-serif;
+}
+
+/* Custom style to center the text */
+.center-text {
+  text-align: center;
+}
+
+/* Custom style to make the navigation bar bold and in Optima font */
+.navbar-brand, .navbar-nav .nav-link {
+  font-weight: bold;
+  font-family: Optima, sans-serif;
+}
+
+.main-body {
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+.output-text {
+  text-align: left;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-box {
+  width: 400px;
+}
+
+#insightOutput {
+  width: 1000px;
+  height: 500px;
+  overflow: auto;
+  padding: 20px;
+  margin: auto;
+  border: 1px lightgrey solid;
+  border-radius: 20px;
+  background-color: #F3F3F3;
+}
+
+.code-output {
+  font: 'Optima';
+  color: #404040;
+  overflow: hidden;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.intermediate {
+  color: darkblue;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

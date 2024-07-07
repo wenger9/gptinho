@@ -1,0 +1,299 @@
+[
+    {
+      "query": "How many consumer reactivations did estee have in 2023 in North America in skincare?",
+      "expectedResult": {
+        "brand": "Estee Lauder",
+        "brandId": 72,
+        "region": "North America",
+        "regionId": 1,
+        "category": "Skincare",
+        "categoryId": "2",
+        "year": 2023,
+        "metric": "reactivatedAmount"
+      }
+    },
+    {
+      "query": "What was the year-over-year change in foot traffic for Estee Lauder in north america in 2022?",
+      "expectedResult": {
+        "brand": "Estee Lauder",
+        "brandId": 72,
+        "region": "North America",
+        "regionId": 1,
+        "year": 2022,
+        "metric": "footTrafficYoy"
+      }
+    },
+    {
+      "query": "What was the net amount for La Mer in China in 2021?",
+      "expectedResult": {
+        "brand": "La Mer",
+        "brandId": 110,
+        "region": "China",
+        "regionId": 12,
+        "year": 2021,
+        "metric": "netAmount"
+      }
+    },
+    {
+      "query": "How many consumers are there in 2023 in North America for makeup?",
+      "expectedResult": {
+        "brand": "All Brands",
+        "brandId": 0,
+        "region": "North America",
+        "regionId": 1,
+        "category": "Makeup",
+        "categoryId": "3",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "What is the consumer count in 2023 for North America in the makeup category?",
+      "expectedResult": {
+        "brand": "All Brands",
+        "brandId": 0,
+        "region": "North America",
+        "regionId": 1,
+        "category": "Makeup",
+        "categoryId": "3",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "How many consumers does Clinique have in 2023 for makeup?",
+      "expectedResult": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "All Regions",
+        "regionId": 0,
+        "category": "Makeup",
+        "categoryId": "3",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "What is the consumer count for Clinique in the makeup category in 2023?",
+      "expectedResult": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "All Regions",
+        "regionId": 0,
+        "category": "Makeup",
+        "categoryId": "3",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "How many consumers does Clinique have in 2023 in North America?",
+      "expectedResult": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "North America",
+        "regionId": 1,
+        "category": "All Categories",
+        "categoryId": "0",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "What is the consumer count for Clinique in North America in 2023?",
+      "expectedResult": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "North America",
+        "regionId": 1,
+        "category": "All Categories",
+        "categoryId": "0",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "How many consumers are there in 2023 for makeup?",
+      "expectedResult": {
+        "brand": "All Brands",
+        "brandId": 0,
+        "region": "All Regions",
+        "regionId": 0,
+        "category": "Makeup",
+        "categoryId": "3",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "What is the consumer count for the makeup category in 2023?",
+      "expectedResult": {
+        "brand": "All Brands",
+        "brandId": 0,
+        "region": "All Regions",
+        "regionId": 0,
+        "category": "Makeup",
+        "categoryId": "3",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "How many consumers are there in 2023 in North America?",
+      "expectedResult": {
+        "brand": "All Brands",
+        "brandId": 0,
+        "region": "North America",
+        "regionId": 1,
+        "category": "All Categories",
+        "categoryId": "0",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+      "query": "What is the consumer count for North America in 2023?",
+      "expectedResult": {
+        "brand": "All Brands",
+        "brandId": 0,
+        "region": "North America",
+        "regionId": 1,
+        "category": "All Categories",
+        "categoryId": "0",
+        "year": 2023,
+        "metric": "consumerCount"
+      }
+    },
+    {
+        "query": "How many consumers does Clinique have in 2023?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "All Regions",
+          "regionId": 0,
+          "category": "All Categories",
+          "categoryId": "0",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "What is the consumer count for Clinique in 2023?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "All Regions",
+          "regionId": 0,
+          "category": "All Categories",
+          "categoryId": "0",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "How many consumers are there in 2023?",
+        "expectedResult": {
+          "brand": "All Brands",
+          "brandId": 0,
+          "region": "All Regions",
+          "regionId": 0,
+          "category": "All Categories",
+          "categoryId": "0",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "What is the consumer count in 2023?",
+        "expectedResult": {
+          "brand": "All Brands",
+          "brandId": 0,
+          "region": "All Regions",
+          "regionId": 0,
+          "category": "All Categories",
+          "categoryId": "0",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "Can you tell me the number of consumers for Clinique in North America for makeup in 2023?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "North America",
+          "regionId": 1,
+          "category": "Makeup",
+          "categoryId": "3",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "I need to know the consumer count for the makeup category for Clinique in North America for the year 2023.",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "North America",
+          "regionId": 1,
+          "category": "Makeup",
+          "categoryId": "3",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "How many consumers does Clinique have in Q1 2023 in North America for makeup?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "North America",
+          "regionId": 1,
+          "category": "Makeup",
+          "categoryId": "3",
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-31",
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "What is the consumer count for Clinique in North America for makeup from January to March 2023?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "North America",
+          "regionId": 1,
+          "category": "Makeup",
+          "categoryId": "3",
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-31",
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "How many customers does Clinique have in 2023 in the US and Canada for cosmetics?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "North America",
+          "regionId": 1,
+          "category": "Makeup",
+          "categoryId": "3",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      },
+      {
+        "query": "What is the consumer population for Clinique in the North American region for the makeup segment in 2023?",
+        "expectedResult": {
+          "brand": "Clinique",
+          "brandId": 109,
+          "region": "North America",
+          "regionId": 1,
+          "category": "Makeup",
+          "categoryId": "3",
+          "year": 2023,
+          "metric": "consumerCount"
+        }
+      }
+    ]

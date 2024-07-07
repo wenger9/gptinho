@@ -1,0 +1,12 @@
+    # messages = [
+    #     {"role": "system", "content": "Directly provide a GraphQL query using the following schema templates:\n" + schema_description},
+    #     {"role": "system", "content": "ONLY return query code. Do not prefix the query with ANY text, not even 'graphql'. CODE QUERY ONLY!"},
+    #     {"role": "user", "content": f"Using the provided GraphQL schema templates, generate a query for the given user input. "
+    #            f"The schema includes templates for various dimensions like brands, regions, affiliates, and categories. "
+    #            f"Here is the schema:\n\n{json.dumps(schema_description, indent=2)}\n\n"
+    #            f"User input requesting: '{args.query}'. "
+    #            f"Use the schema to generate the appropriate GraphQL query based on the user input."}        
+    # ]
+
+
+The updated training dataset will reflect realistic business scenarios with diverse and comprehensive queries, including specific details, synonyms, common spelling mistakes, and various time frames.

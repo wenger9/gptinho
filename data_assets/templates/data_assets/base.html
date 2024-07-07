@@ -1,0 +1,72 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Query Data</title>
+  <!-- Add the Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Local CSS -->
+  <link rel="stylesheet" type="text/css" href="{% static 'data_assets/style.css' %}">
+  {% block head %}
+  {% endblock %}
+</head>
+<body>
+<!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'data_assets_list' %}">Analytics Explorer Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item {% if request.resolver_match.view_name == 'neural_search' %}active{% endif %}">
+            <a class="nav-link" href="{% url 'neural_search' %}">Insights</a>
+          </li>
+          {% if user.is_staff %}
+          <li class="nav-item {% if request.resolver_match.view_name == 'admin' %}active{% endif %}">
+            <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>
+          </li>
+          {% endif %}
+          {% if user.is_authenticated %}
+          <li class="nav-item {% if request.resolver_match.view_name == 'logout' %}active{% endif %}">
+            <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+      <!-- Brand and Region list for user -->
+      {% if request.resolver_match.view_name == 'neural_search' %}
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ user.username }}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-header" href="#">Brands</a>
+          {% for brand in brands %}
+            <a class="dropdown-item" href="#">{{ brand.name }}</a>
+          {% endfor %}
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-header" href="#">Regions</a>
+          {% for region in regions %}
+            <a class="dropdown-item" href="#">{{ region.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      <!-- End of Brand and Region list -->
+    </div>
+  </nav>
+  <div class="main-body">
+  {% block body %}
+  {% endblock %}
+    <!-- Add the Bootstrap JS files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </div>
+</body>
+</html>

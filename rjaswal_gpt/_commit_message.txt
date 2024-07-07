@@ -1,0 +1,1 @@
+merge dshapiro commits. enhance query_extractor

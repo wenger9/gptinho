@@ -1,0 +1,62 @@
+{% extends 'data_assets/base.html' %}
+{% load static %}
+
+{% block head %}
+  <!-- Local JS -->
+  <script src="{% static 'data_assets/analytics_explorer.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+<!-- distance btw top nd text for "analytics explorer"-->
+<div style="height: 150px;"></div>
+
+<h1 class="text-center" style="font-family: Optima;">Analytics Explorer</h1>
+<div style="height: 35px;"></div>
+<div class="container">
+    <div class="text-center">
+        <form class="form-inline d-inline-flex" method="get">
+            <div class="form-group">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" value="{{ search_query }}" id="id_q_dropdown" style="width: 400px;">
+              <ul class="dropdown-menu" id="data-asset-dropdown"></ul>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="button" id="clear-button">Clear</button>
+            </div>
+        </form>
+    </div>
+   
+    <!-- Font, header and margin for GDNA Catalog header above table (in context of view) -->
+
+    <h1 style="font-size: 30px; margin-top: 75px;">
+        <span style="font-family: Optima;">GD&A Data Catalog</span>
+    </h1>
+    <!-- <div class="text-center" style="margin-bottom: 20px;">
+      <form class="form-inline d-inline-flex" method="get"> -->
+    {% if data_assets %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data_asset in data_assets %}
+            <tr>
+                <td><a href="{% url 'data_asset_detail' data_asset.pk %}">{{ data_asset.name }}</a></td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td>No data assets found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No data assets found.</p>
+    {% endif %}
+</div>
+
+{% endblock %}
+
+
+

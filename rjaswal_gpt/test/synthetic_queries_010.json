@@ -1,0 +1,116 @@
+[
+    {
+        "query": "How many consumer reactivations did Clinique have in 2023 in North America in skincare?",
+        "expectedResult": {
+        "brand": "Clinique",
+        "brandId": 109,
+        "region": "North America",
+        "regionId": 1,
+        "category": "Skincare",
+        "categoryId": "2",
+        "year": 2023,
+        "metric": "reactivatedAmount"
+        }
+    },
+    {
+        "query": "What was the year-over-year change in foot traffic for Estee Lauder in EMEA in 2022?",
+        "expectedResult": {
+        "brand": "Estee Lauder",
+        "brandId": 72,
+        "region": "EMEA",
+        "regionId": 8,
+        "year": 2022,
+        "metric": "footTrafficYoy"
+        }
+    },
+    {
+        "query": "What was the net amount for La Mer in China in 2021?",
+        "expectedResult": {
+        "brand": "La Mer",
+        "brandId": 110,
+        "region": "China",
+        "regionId": 12,
+        "year": 2021,
+        "metric": "netAmount"
+        }
+    },
+    {
+        "query": "What was the fill rate variance for MAC in the UK in Q3 2023?",
+        "expectedResult": {
+        "brand": "MAC",
+        "brandId": 115,
+        "region": "UK",
+        "regionId": 2,
+        "quarter": "Q3",
+        "year": 2023,
+        "metric": "fillRateVariance"
+        }
+    },
+{
+        "query": "What was the advertising year-over-year change for Jo Malone London in Travel Retail in 2022?",
+        "expectedResult": {
+        "brand": "Jo Malone London",
+        "brandId": 108,
+        "region": "Travel Retail",
+        "regionId": 7,
+        "year": 2022,
+        "metric": "advertisingYoy"
+        }
+    },
+    {
+        "query": "What was the conversion rate for Bobbi Brown in Germany in 2023?",
+        "expectedResult": {
+        "brand": "Bobbi Brown",
+        "brandId": 113,
+        "affiliate": "Germany",
+        "affiliateId": 55,
+        "year": 2023,
+        "metric": "conversionRate"
+        }
+    },
+    {
+        "query": "What was the number of product launches for Aveda in France in 2022?",
+        "expectedResult": {
+        "brand": "Aveda",
+        "brandId": 123,
+        "affiliate": "France",
+        "affiliateId": 90,
+        "year": 2022,
+        "metric": "launches"
+        }
+    },
+    {
+        "query": "What was the retail amount for Tom Ford Beauty in Japan in Q4 2023?",
+        "expectedResult": {
+        "brand": "Tom Ford Beauty",
+        "brandId": 65,
+        "affiliate": "Japan",
+        "affiliateId": 68,
+        "quarter": "Q4",
+        "year": 2023,
+        "metric": "retailAmount"
+        }
+    },
+    {
+        "query": "What was the bounce rate year-over-year change for Kilian Paris in Russia CONS in 2021?",
+        "expectedResult": {
+        "brand": "Kilian Paris",
+        "brandId": 68,
+        "affiliate": "Russia CONS",
+        "affiliateId": 45,
+        "year": 2021,
+        "metric": "bounceRateYoy"
+        }
+    },
+    {
+        "query": "What was the number of influencer brand mentions for Origins in Australia in 2022?",
+        "expectedResult": {
+        "brand": "Origins",
+        "brandId": 77,
+        "affiliate": "Australia",
+        "affiliateId": 32,
+        "year": 2022,
+        "metric": "brands"
+        }
+    }
+]

@@ -1,0 +1,35 @@
+{% extends 'data_assets/base.html' %}
+
+{% block body %}
+  <h1>Query Data</h1>
+  <form action="{% if table_name %}{% url 'query_data_search' table_name=table_name %}{% else %}{% url 'query_data_search' %}{% endif %}" method="get">
+    <label for="question">Enter your question:</label>
+    <input type="text" id="question" name="question">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="result"></div>
+  <script>
+    function displayResult(data) {
+      // TODO: Update this function to display the results as desired
+      document.getElementById('result').innerText = JSON.stringify(data);
+    }
+
+    async function fetchData() {
+      const response = await fetch("{{ url }}?question={{ request.GET.question|urlencode }}");
+      const data = await response.json();
+      displayResult(data);
+    }
+
+    {% if request.GET.question %}
+      fetchData();
+    {% endif %}
+  </script>
+{% endblock %}
+
+
+
+
+
+
+
+

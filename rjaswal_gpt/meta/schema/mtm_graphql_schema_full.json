@@ -1,0 +1,69 @@
+{
+    "retailCard": {
+        "arguments": [
+            "affiliateId: Int",
+            "brandId: Int",
+            "businessTypeId: Int",
+            "categoryId: Int",
+            "channelId: Int",
+            "endDate: Date",
+            "overlay: String",
+            "regionId: Int",
+            "startDate: Date"
+        ],
+        "fields": [
+            "retailAmount: BigInt",
+            "retailYoy: Float",
+            "dates: DatesType"
+        ]
+    },
+    "consumerTable": {
+        "arguments": [
+            "affiliateId: Int",
+            "brandId: Int",
+            "businessTypeId: Int",
+            "channelId: Int",
+            "endDate: Date",
+            "projection: String",
+            "regionId: Int",
+            "startDate: Date"
+        ],
+        "fields": [
+            "newAmount: Int",
+            "newYoy: Float",
+            "newPlan: Float",
+            "retainedAmount: Int",
+            "retainedYoy: Float",
+            "retainedPlan: Float",
+            "reactivatedAmount: Int",
+            "reactivatedYoy: Float",
+            "reactivatedPlan: Float",
+            "totalAmount: Int",
+            "totalYoy: Float",
+            "totalPlan: Float",
+            "repeat: Float",
+            "repeatYoy: Float",
+            "retention: Float",
+            "retentionYoy: Float",
+            "projection: String"
+        ]
+    },
+    "consumerAggregate": {
+        "arguments": [
+            "affiliateId: Int",
+            "brandId: Int",
+            "businessTypeId: Int",
+            "channelId: Int",
+            "endDate: Date",
+            "projection: String",
+            "regionId: Int"
+        ],
+        "fields": [
+            "new: Int",
+            "retained: Int",
+            "reactivated: Int",
+            "projection: String",
+            "dates: DatesType"
+        ]
+    }
+}

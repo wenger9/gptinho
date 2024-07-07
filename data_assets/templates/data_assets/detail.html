@@ -1,0 +1,41 @@
+{% extends 'data_assets/base.html' %}
+
+
+{% block body %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1 class="text-center mb-4">{{ data_asset.name }}</h1>
+        {{ html_top_5|safe }}
+      <h2 class="mt-5 mb-3">Sample Statistics</h2>
+      <pre>{{ data_asset.sample_statistics }}</pre>
+    </div>
+  </div>
+</div>
+
+<style>
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+</style>
+{% endblock %}
+
+
+

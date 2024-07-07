@@ -1,0 +1,40 @@
+graphql_schema = {
+    "consumerTable": {
+        "arguments": {
+            "affiliateId": "Int",
+            "brandId": "Int",
+            "businessTypeId": "Int",
+            "channelId": "Int",
+            "endDate": "Date!",
+            "projection": "String",
+            "regionId": "Int",
+            "startDate": "Date!"
+        },
+        "fields": {
+            "newAmount": "BigInt",
+            "newYoy": "Float",
+            "newPlan": "Float",
+            "retainedAmount": "BigInt",
+            "retainedYoy": "Float",
+            "retainedPlan": "Float",
+            "reactivatedAmount": "BigInt",
+            "reactivatedYoy": "Float",
+            "reactivatedPlan": "Float",
+            "totalAmount": "BigInt",
+            "totalYoy": "Float",
+            "totalPlan": "Float",
+            "repeat": "Float",
+            "repeatYoy": "Float",
+            "retention": "Float",
+            "retentionYoy": "Float",
+            "projection": "String",
+            "dates": "DatesType"
+        }
+    },
+    "DatesType": {
+        "startDate": "Date!",
+        "endDate": "Date!",
+        "period": "String"
+    },
+    "scalars": ["Date", "BigInt"]
+}

@@ -1,0 +1,107 @@
+{
+    "dimensions": {
+      "brand": {
+        "template": "query {{\n  brands (active: {status}) {{\n    id\n  }}\n}}",
+        "data_key": "brands"
+      },
+      "region": {
+        "template": "query {{\n  regions (active: {status}) {{\n    id\n  }}\n}}",
+        "data_key": "regions"
+      },
+      "affiliate": {
+        "template": "query {{\n  affiliates (active: {status}) {{\n    id\n  }}\n}}",
+        "data_key": "affiliates"
+      },
+      "category": {
+        "template": "query {{\n  categories {{\n    id\n  }}\n}}",
+        "data_key": "categories"
+      }
+    },
+    "metrics": {
+      "smap": {
+        "template": "query {{\n  smapTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    selling\n    sellingPy\n    sellingNetPct\n    sellingYoy\n    marketing\n    marketingPy\n    marketingNetPct\n    marketingYoy\n    advertising\n    advertisingPy\n    advertisingNetPct\n    advertisingYoy\n    promotion\n    promotionPy\n    promotionNetPct\n    promotionYoy\n    total\n    totalPy\n    totalNetPct\n    totalYoy\n  dates {{\n      period\n      startDate\n      endDate\n    }}\n  }}\n}}",
+        "data_key": "smapTable"
+      },
+      "finance": {
+        "template": "query {{\n  financeCard (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    netAmount\n    marginAmount\n    nopAmount\n    grossToNetAmount\n    netYoy\n    marginYoy\n    nopYoy\n    grossToNetYoy\n    netBudget\n    marginBudget\n    nopBudget\n    grossToNetBudget\n    netLe\n    marginLe\n    nopLe\n    grossToNetLe\n      dates {{\n      period\n      startDate\n      endDate\n    }}\n    }}\n}}",
+        "data_key": "financeCard"
+      },
+      "retail_chart": {
+        "template": "query {{\n  retailChart (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    chart {{\n      date\n      value\n    }}\n  }}\n}}",
+        "data_key": "retailChart"
+      },
+      "top_retailers": {
+        "template": "query {{\n  topRetailers (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    retailers {{\n      retailer\n      retail\n      retailYoy\n    }}\n    dates {{\n      period\n      startDate\n      endDate\n    }}\n  }}\n}}",
+        "data_key": "topRetailers"
+      },
+      "market_chart": {
+        "template": "query {{\n  marketChart (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    chart {{\n      label\n      values {{\n        date\n        value\n      }}\n    }}\n  }}\n}}",
+        "data_key": "marketChart"
+      },
+      "market_rank_table": {
+        "template": "query {{\n  marketRankTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    brands {{\n      name\n      rank\n      rankYoy\n      sales\n      salesYoy\n      share\n      shareYoy\n      asp\n      aspYoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "marketRankTable"
+      },
+      "traffic_share_chart": {
+        "template": "query {{\n  trafficShareChart (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    label\n    values {{\n      date\n      value\n    }}\n  }}\n}}",
+        "data_key": "trafficShareChart"
+      },
+      "traffic_share_table": {
+        "template": "query {{\n  trafficShareTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    aggregationLevel\n    brands {{\n      name\n      rank\n      rankYoy\n      visits\n      visitsYoy\n      share\n      shareYoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "trafficShareTable"
+      },
+      "traffic_chart": {
+        "template": "query {{\n  trafficChart (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    label\n    values {{\n      date\n      value\n    }}\n  }}\n}}",
+        "data_key": "trafficChart"
+      },
+      "traffic_table": {
+        "template": "query {{\n  trafficTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    sessions\n    sessionsYoy\n    quality\n    qualityYoy\n    sessionDuration\n    sessionDurationYoy\n    pagesPerSession\n    pagesPerSessionYoy\n    conversionRate\n    conversionRateYoy\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "trafficTable"
+      },
+      "traffic_source_table": {
+        "template": "query {{\n  trafficSourceTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    sources {{\n      name\n      value\n      valueYoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "trafficSourceTable"
+      },
+      "foot_traffic_table": {
+        "template": "query {{\n  footTrafficTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    footTraffic,\n    footTrafficYoy,\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "footTrafficTable"
+      },
+      "influencer_table": {
+        "template": "query {{\n  influencerTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    brands {{\n      name\n      rank\n      rankYoy\n      value\n      valueYoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "influencerTable"
+      },
+      "media_table": {
+        "template": "query {{\n  mediaTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    brands {{\n      name\n      rank\n      rankYoy\n      value\n      valueYoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "mediaTable"
+      },
+      "owned_social": {
+        "template": "query {{\n  ownedSocial (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    channels {{\n      name\n      value\n      valueYoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "ownedSocial"
+      },
+      "consumer_aggregate": {
+        "template": "query {{\n  consumerAggregate (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    new\n    retained\n    reactivated\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "consumerAggregate"
+      },
+      "consumer_table": {
+        "template": "query {{\n  consumerTable (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\") {{\n    newAmount\n    newYoy\n    newPlan\n    retainedAmount\n    retainedYoy\n    retainedPlan\n    reactivatedAmount\n    reactivatedYoy\n    reactivatedPlan\n    totalAmount\n    totalYoy\n    totalPlan\n    retention\n    retentionYoy\n    repeat\n    repeatYoy\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "consumerTable"
+      },
+      "brand_health": {
+        "template": "query {{\n  brandHealth (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    brands {{\n      percentage\n      yoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "brandHealth"
+      },
+      "innovation": {
+        "template": "query {{\n  innovation (brandId: {brand_id}, categoryId: {category_id}) {{\n    launches {{\n      program\n      type\n      salesCurrent\n      sellThrough\n      salesPlan\n      fiscalYear\n      monthsSinceShip\n      brand {{\n        displayName\n      }}\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "innovation"
+      },
+      "inventory": {
+        "template": "query {{\n  inventory (brandId: {brand_id}, regionId: {region_id}, categoryId: {category_id}) {{\n    fillRate\n    fillRateTarget\n    fillRateVariance\n    fillRateMom\n    lag\n    lagTarget\n    lagVariance\n    lagMom\n    inventory\n    inventoryVariance\n    inventoryTarget\n    inventoryMom\n    excess\n    excessTarget\n    excessVariance\n    excessMom\n    cogsNet\n    cogsNetTarget\n    cogsNetVariance\n    cogsNetMom\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "inventory"
+      },
+      "product_role": {
+        "template": "query {{\n  productRole (brandId: {brand_id}, regionId: {region_id}, affiliateId: {affiliate_id}, startDate: \"{start_date}\", endDate: \"{end_date}\", categoryId: {category_id}) {{\n    roles {{\n      role\n      mix\n      yoy\n    }}\n    dates {{\n      startDate\n      endDate\n      period\n    }}\n  }}\n}}",
+        "data_key": "productRole"
+      }
+    }
+  }
+  

@@ -1,0 +1,88 @@
+// TODO: (Retreive additional BESPOKE error codes for MTM dashboard from Daniel)
+
+// Error Types:
+// 1. Azure OpenAI API Response Errors
+// 2. Azure OpenAI API Payload Errors
+// 3. GPT GraphQL Server API Response Errors
+// 4. GPT GraphQL Server API Payload Errors
+// 5. GPT GraphQL MTM-Dashboard-specific Errors
+// 6. User Query Contains References to Unsupported GrpahQL Arguments
+// 8. User Query Contains References to Unsupported GraphQL Fields
+// 9. User Query Contains References to Unsupported GraphQL Operations
+// 10. MTM-GPT GraphQL Server API Response Errors
+// 11. MTM-GPT AzureOpenAI API Chat Completion Response Errors
+// 12. MTM-GPT AzureOpenAI Generated Summary Errors
+// 13. MTM-GPT GraphQL Server API Payload Errors
+
+// The following is a JSON-formatted dictionary of the  error types:
+
+{
+  "API Response Errors": {
+    "Azure OpenAI": {
+      "key unavailable": {
+        "error_code": 503,
+        "error_message": "Azure OpenAI key unavailable"
+      },
+      "key not found": {
+        "error_code": 404,
+        "error_message": "Azure OpenAI key not found"
+      },
+      "key invalid": {
+        "error_code": 401,
+        "error_message": "Azure OpenAI key invalid"
+      },
+      "API key quota exceeded": {
+        "error_code": 403,
+        "error_message": "Azure OpenAI API key quota exceeded"
+      },
+      "API key rate limit exceeded": {
+        "error_code": 429,
+        "error_message": "Azure OpenAI API key rate limit exceeded"
+      },
+      "API key request timeout": {
+        "error_code": 504,
+        "error_message": "Azure OpenAI API key request timeout"
+      },
+      "API key server error": {
+        "error_code": 500,
+        "error_message": "Azure OpenAI API key server error"
+      }
+    },
+    "GPT GraphQL Server": {
+      "API unavailable": {
+        "error_code": 503,
+        "error_message": "GPT GraphQL Server API unavailable"
+      },
+      "API request timeout": {
+        "error_code": 504,
+        "error_message": "GPT GraphQL Server API request timeout"
+      },
+      "API server error": {
+        "error_code": 500,
+        "error_message": "GPT GraphQL Server API server error"
+      },
+      "API rate limit exceeded": {
+        "error_code": 429,
+        "error_message": "GPT GraphQL Server API rate limit exceeded"
+      },
+      "API quota exceeded": {
+        "error_code": 403,
+        "error_message": "GPT GraphQL Server API quota exceeded"
+      },
+      "API key not found": {
+        "error_code": 404,
+        "error_message": "GPT GraphQL Server API key not found"
+      },
+      "API key invalid": {
+        "error_code": 401,
+        "error_message": "GPT GraphQL Server API key invalid"
+      },
+      "API key quota exceeded": {
+        "error_code": 403,
+        "error_message": "GPT GraphQL Server API key quota exceeded"
+      }
+      
+    }
+  },
+  "API Payload Errors": {}
+}
